@@ -15,7 +15,7 @@ describe("Utils", function() {
       assert.equal(utils.greetings("World"), "Hello World 👋👋");
     });
 
-    it("Throws on missing params", function() {
+    it("Throws on missing params ok", function() {
       assert.throws(() => {
         utils.greetings();
       }, Error);
